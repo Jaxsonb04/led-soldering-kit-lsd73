@@ -54,10 +54,13 @@ I bent some LED legs too far when fitting them into the board. That caused probl
 ### 3. A faulty multimeter
 When I used my multimeter to diagnose the problem, its readings didn't make sense, so it was hard to tell what was wrong with the board. It turned out the meter itself was faulty. Once I replaced it, the readings made sense and I could find the real problem.
 
+### 4. Removing old or broken solder
+Getting existing or bad solder off a joint was hard. The solder wouldn't let go, and I had to be careful not to overheat the pad. I learned to use **solder wick with flux**: add a little flux, press the wick onto the joint with the iron, and the solder soaks up into the wick.
+
 ## What I learned
 
 - **Soldering:** heating the pad and the leg together, then feeding in solder for a clean joint.
-- **Desoldering:** removing solder with desoldering wick to pull out and redo parts.
+- **Desoldering:** removing old or broken solder with solder wick and flux, so I could pull out and redo parts.
 - **Troubleshooting:** working through a board step by step to find what's actually wrong, and not trusting a tool just because it's a tool.
 - **Reading a schematic:** matching the symbols and labels (IC1, Q1, R1…) to the real parts on the board.
 - **Components:** what each part does: timer, counter, transistors, resistors, capacitors and LEDs.
@@ -66,7 +69,7 @@ When I used my multimeter to diagnose the problem, its readings didn't make sens
 
 - Temperature-controlled soldering station and solder wire
 - Brass wool tip cleaner
-- Desoldering wick
+- Desoldering wick and flux
 - Helping hands with alligator clips
 - Fume extractor
 - Digital multimeter
