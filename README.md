@@ -51,17 +51,14 @@ The tip kept oxidizing and solder stopped flowing onto it. I made two mistakes:
 ### 2. Overbent LED legs
 I bent some LED legs too far when fitting them into the board. That caused problems that took a lot of troubleshooting to track down. I had to find the bad LEDs, desolder them, and fix them.
 
-### 3. A faulty multimeter
-When I used my multimeter to diagnose the problem, its readings didn't make sense, so it was hard to tell what was wrong with the board. It turned out the meter itself was faulty. Once I replaced it, the readings made sense and I could find the real problem.
-
-### 4. Removing old or broken solder
+### 3. Removing old or broken solder
 Getting existing or bad solder off a joint was hard. The solder wouldn't let go, and I had to be careful not to overheat the pad. I learned to use **solder wick with flux**: add a little flux, press the wick onto the joint with the iron, and the solder soaks up into the wick.
 
 ## What I learned
 
 - **Soldering:** heating the pad and the leg together, then feeding in solder for a clean joint.
 - **Desoldering:** removing old or broken solder with solder wick and flux, so I could pull out and redo parts.
-- **Troubleshooting:** working through a board step by step to find what's actually wrong, and not trusting a tool just because it's a tool.
+- **Troubleshooting:** working through a board step by step to find what's actually wrong.
 - **Reading a schematic:** matching the symbols and labels (IC1, Q1, R1…) to the real parts on the board.
 - **Components:** what each part does: timer, counter, transistors, resistors, capacitors and LEDs.
 
